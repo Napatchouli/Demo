@@ -1,0 +1,55 @@
+/* Improved navigation styling */
+.navbar-nav {
+  display: flex;
+  flex-direction: row; /* Changed from column to row for better horizontal layout */
+  justify-content: flex-start; /* Left alignment instead of flex-end */
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 1rem; /* Use specific value instead of auto */
+}
+
+/* Better text alignment and spacing */
+.row {
+  text-align: center;
+  gap: 1rem; /* Use specific value instead of auto */
+  margin-bottom: 1.5rem; /* Add bottom margin for better separation */
+}
+
+/* Form control spacing */
+.input-group {
+  margin: 15px 0; /* Increased from 10px for better spacing */
+  max-width: 100%; /* Ensure responsive behavior */
+}
+
+/* Button styling improvements */
+.btn {
+  max-width: 100%;
+  margin: 0 5px; /* Add horizontal spacing between buttons */
+  transition: all 0.3s ease; /* Smooth hover transitions */
+}
+
+/* Additional responsive improvements */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items on mobile */
+  }
+  
+  .input-group-text {
+    min-width: 120px; /* Consistent label width on small screens */
+  }
+  
+  .btn-group-sm {
+    flex-wrap: wrap; /* Ensure buttons wrap properly on mobile */
+  }
+}
+
+/* Add space below card elements */
+.card {
+  margin-bottom: 2rem;
+}
+
+/* Better spacing for the day selection buttons */
+.btn-group {
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
