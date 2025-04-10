@@ -30,6 +30,12 @@ $(document).ready(function() {
 function initializeEventListeners() {
   // INR Dosing calculator
   $('#calculateInrDosing').on('click', calculateInrDosing);
+  $('#currentINR, #totalWarfarin').on('keypress', function(e) {
+    if (e.which === 13) {
+      e.preventDefault();
+      $('#calculateInrDosing').click();
+    }
+  });
   $('#resetInrForm').on('click', function() {
     $('#inr-dosing-result').addClass('d-none');
   });
@@ -42,6 +48,12 @@ function initializeEventListeners() {
   
   // TWD Design calculator
   $('#getTWD').on('click', getTWD);
+  $('#TWD_Value').on('keypress', function(e) {
+    if (e.which === 13) {
+      e.preventDefault();
+      $('#getTWD').click();
+    }
+  });
   $('#resetTwdForm').on('click', function() {
     $('#warfarin-regimens-result').empty();
   });
@@ -86,69 +98,128 @@ function showAlert(elementId, message, type = 'success') {
 function calculateInrDosing() {
   const currentINR = parseFloat($('#currentINR').val());
   const totalWarfarin = parseFloat($('#totalWarfarin').val());
-  const targetLow = parseFloat($('#targetINRLow').val());
-  const targetHigh = parseFloat($('#targetINRHigh').val());
   
-  // Validate inputs
   if (isNaN(currentINR) || isNaN(totalWarfarin)) {
     showAlert('inr-dosing-result', 'Please enter valid numbers for INR and weekly warfarin dose.', 'danger');
     return;
   }
   
-  let newDose = totalWarfarin;
-  let adjustmentPercent = 0;
+  let newDose_1 = totalWarfarin;
+  let newDose_2 = totalWarfarin;
+  let adjustmentPercent_1 = 0;
+  let adjustmentPercent_2 = 0;
   let message = '';
   let alertType = 'info';
   
-  // INR is below target range
-  if (currentINR < targetLow) {
-    if (currentINR < 1.5) {
-      adjustmentPercent = 15;
-    } else {
-      adjustmentPercent = 10;
-    }
-    newDose = totalWarfarin * (1 + adjustmentPercent/100);
-    message = `<strong>INR below target range.</strong> Increase weekly dose by ${adjustmentPercent}%.`;
+  // INR adjustments based on guidelines
+  if (currentINR < 1.5) {
+    adjustmentPercent_1 = 10; // Average of 10-20%
+    adjustmentPercent_2 = 20; // Average of 10-20%
+    message = '<strong>Low INR detected!</strong> Increase weekly dose by 10-20%.';
     alertType = 'warning';
+    newDose_1 = totalWarfarin * (1 + adjustmentPercent_1/100);
+    newDose_2 = totalWarfarin * (1 + adjustmentPercent_2/100);
   } 
-  // INR is above target range
-  else if (currentINR > targetHigh) {
-    if (currentINR > 5.0) {
-      adjustmentPercent = 25;
-      message = `<strong>High INR detected!</strong> Consider holding doses for 1-2 days, then decrease weekly dose by ${adjustmentPercent}%.`;
-      alertType = 'danger';
-    } else if (currentINR > 4.0) {
-      adjustmentPercent = 20;
-      message = `<strong>INR above target range.</strong> Consider holding one dose, then decrease weekly dose by ${adjustmentPercent}%.`;
-      alertType = 'warning';
-    } else {
-      adjustmentPercent = 10;
-      message = `<strong>INR slightly elevated.</strong> Decrease weekly dose by ${adjustmentPercent}%.`;
-      alertType = 'warning';
-    }
-    newDose = totalWarfarin * (1 - adjustmentPercent/100);
-  } 
-  // INR is within target range
-  else {
-    message = `<strong>INR within target range.</strong> Maintain current weekly dose.`;
+  else if (currentINR >= 1.5 && currentINR < 2.0) {
+    adjustmentPercent_1 = 5;
+    adjustmentPercent_2 = 10; // Average of 5-10%
+    message = '<strong>INR below target range.</strong> Increase weekly dose by 5-10%.';
+    alertType = 'warning';
+    newDose_1 = totalWarfarin * (1 + adjustmentPercent_1/100);
+    newDose_2 = totalWarfarin * (1 + adjustmentPercent_2/100);
+  }
+  else if (currentINR >= 2.0 && currentINR <= 3.0) {
+    message = '<strong>INR within target range.</strong> Continue same dose.';
     alertType = 'success';
+  }
+  else if (currentINR > 3.0 && currentINR < 4.0) {
+    adjustmentPercent_1 = 5;
+    adjustmentPercent_2 = 10; // Average of 5-10%
+    message = '<strong>INR slightly elevated.</strong> Decrease weekly dose by 5-10%.';
+    alertType = 'warning';
+    newDose_1 = totalWarfarin * (1 - adjustmentPercent_1/100);
+    newDose_2 = totalWarfarin * (1 - adjustmentPercent_2/100);
+  }
+  else if (currentINR >= 4.0 && currentINR < 5.0) {
+    adjustmentPercent_1 = 10;
+    message = '<strong>High INR detected!</strong> Hold for 1 day then decrease weekly dose by 10%.';
+    alertType = 'danger';
+    newDose_1 = totalWarfarin * (1 - adjustmentPercent_1/100);
+    newDose_2 = 0;
+  }
+  else if (currentINR >= 5.0 && currentINR < 9.0) {
+    adjustmentPercent = 15;
+    message = '<strong>Critical INR level!</strong> Hold 1-2 doses and administer Vitamin K1 1 mg orally';
+    alertType = 'danger';
+  }
+  else if (currentINR >= 9.0) {
+    adjustmentPercent = 20;
+    message = '<strong>Severe INR elevation!</strong> Administer Vitamin K1 5-10 mg orally.';
+    alertType = 'danger';
   }
   
   // Round to nearest 0.5 mg
-  newDose = Math.round(newDose * 2) / 2;
+  newDose_1 = Math.round(newDose_1 * 2) / 2;
+  newDose_2 = Math.round(newDose_2 * 2) / 2;
+
+  // Percent adjustment
+  adjustmentPercent_1 = parseFloat((newDose_1 / totalWarfarin - 1)*100).toFixed(1) ;
+  adjustmentPercent_2 = parseFloat((newDose_2 / totalWarfarin - 1)*100).toFixed(1) ;
   
-  // Output result
-  let resultHTML = `
-    <p>${message}</p>
-    <p>Current weekly dose: ${totalWarfarin} mg</p>
-    <p>Recommended weekly dose: ${newDose} mg</p>
-    <p>Check TWD Design tab for dosing regimen options.</p>
-  `;
+  // Create result HTML based on INR ranges
+  let resultHTML;
+  
+  if (currentINR < 1.5) {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong> Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p><strong>Recommended weekly dose:</strong> ${newDose_1} - ${newDose_2}  mg (${adjustmentPercent_1}  to ${adjustmentPercent_2} %)</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
+  else if (currentINR >= 1.5 && currentINR < 2.0) {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong>Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p><strong>Recommended weekly dose:</strong> ${newDose_1} - ${newDose_2}  mg (${adjustmentPercent_1}  to ${adjustmentPercent_2} %)</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
+  else if (currentINR >= 2.0 && currentINR <= 3.0) {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong> Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
+  else if (currentINR > 3.0 && currentINR < 4.0) {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong>Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p><strong>Recommended weekly dose:</strong> ${newDose_2} - ${newDose_1}  mg (${adjustmentPercent_1}  to ${adjustmentPercent_2} %)</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
+  else if (currentINR >= 4.0 && currentINR < 5.0) {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong>Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p><strong>Recommended weekly dose:</strong> ${newDose_1}  mg (${adjustmentPercent_1} %)</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
+  else {
+    resultHTML = `
+      <p>${message}</p>
+      <p><strong>Current weekly dose:</strong> ${totalWarfarin} mg</p>
+      <p>Check TWD Design tab for dosing regimen options.</p>
+    `;
+  }
   
   showAlert('inr-dosing-result', resultHTML, alertType);
   
   // Automatically populate the TWD value in the TWD Design section
-  $('#TWD_Value').val(newDose);
+  $('#TWD_Value').val(newDose_1);
 }
 
 // Warfarin regimens data
@@ -304,6 +375,16 @@ function findClosestRegimen(targetTWD) {
 
 // Display table with regimen data
 function displayRegimenTable(regimen, resultDiv) {
+  const totalWarfarin = parseFloat($('#totalWarfarin').val());
+  const newTWD = parseFloat(regimen[0]);
+  let percentChange = '';
+  
+  if (!isNaN(totalWarfarin) && totalWarfarin > 0) {
+    const changePercent = ((newTWD - totalWarfarin) / totalWarfarin * 100).toFixed(1);
+    const changeDirection = changePercent > 0 ? '+' : '';
+    percentChange = ` (${changeDirection}${changePercent}%)`;
+  }
+
   const table = document.createElement("table");
   table.className = "table table-striped table-bordered";
   table.style.width = "100%";
@@ -334,22 +415,15 @@ function displayRegimenTable(regimen, resultDiv) {
     tbody.appendChild(row5mg);
   }
 
-  // Add total/week row
+  // Add total/week row with percent change
   const total = document.createElement("tr");
   total.className = "table-primary";
-  total.innerHTML = `<td><strong>Total/week</strong></td><td><strong>${regimen[0]} mg</strong></td>`;
+  total.innerHTML = `<td><strong>Total/week</strong></td><td><strong>${regimen[0]} mg${percentChange}</strong></td>`;
   tbody.appendChild(total);
 
   table.appendChild(thead);
   table.appendChild(tbody);
   resultDiv.appendChild(table);
-  
-  // Add print button
-  const printBtn = document.createElement("button");
-  printBtn.className = "btn btn-sm btn-secondary mt-2";
-  printBtn.innerHTML = '<i class="bi bi-printer"></i> Print Regimen';
-  printBtn.onclick = function() { printRegimenCard(regimen); };
-  resultDiv.appendChild(printBtn);
 }
 
 // Show error when TWD is empty
@@ -477,7 +551,7 @@ function calculateTabletsToDispense() {
     <p><strong>Dosing Days:</strong> ${everyDay ? 'Every day' : selectedDaysToString(document.querySelectorAll('.day-select:checked'))}</p>
     <p><strong>Dosage:</strong> warfarin ${dosage} mg take ${tabletsPerDay} tab/day</p>
     <p><strong>Total Weekly Dose (TWD):</strong> ${twd} mg</p>
-    <p><strong>Total Tablets to Dispense:</strong> ${roundedTablets}</p>
+    <p><strong>Total Tablets to Dispense:</strong> ${roundedTablets} tablets</p>
   `;
   
   showAlert('followup-result', resultHTML, 'success');
