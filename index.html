@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pharmacist's WorkWeb</title>
     <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,13 +17,23 @@
     <link rel="stylesheet" href="global.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="Javascript.js" defer></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Add these new dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <i class="bi bi-soundwave"></i> Pharmacist's WorkWeb</a>
+        <a class="navbar-brand" style="color: #0d6efd;" href="#"> <i class="fa-solid fa-prescription"></i> Pharmacist's WorkWeb</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -41,22 +48,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#guideline"><i class="bi bi-browser-safari"></i> Guideline</a>
+              <a class="nav-link" href="#guideline"><i class="fa-solid fa-book-medical"></i> Guideline</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#inr-dosing"><i class="bi bi-calculator"></i> Dosing</a>
+              <a class="nav-link" aria-current="page" href="#inr-dosing"><i class="fa-solid fa-calculator"></i> Dosing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#inr-design"> <i class="bi bi-capsule-pill"></i> TWD design</a>
+              <a class="nav-link" href="#inr-design"> <i class="fa-solid fa-tablets"></i></i> TWD design</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#warfarin-followup"> <i class="bi bi-calendar-week"></i> TWD & Follow-up</a>
+              <a class="nav-link" href="#warfarin-followup"> <i class="fas fa-heart"></i> TWD & Follow-up</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#creator_info"> <i class="bi bi-person-arms-up"></i> Creator info</a>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#creator_info"> <i class="fa-solid fa-id-badge"></i> Creator info</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#Comment_info"> <i class="bi bi-clipboard2-heart-fill"></i> Comment</a>
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#Comment_info"> <i class="fa-solid fa-comments"></i> Comment</a>
             </li>
           </ul>
         </div>
@@ -67,12 +74,12 @@
         <!--Introduction-->
         <div class="row pt-5 text-center">
           <div class="col-12">
-            <h1 class="text-primary">Welcome to Pharmacist's WorkWeb</h1>
+            <h1 class="text-primary">Quick Warfarin</h1>
             <p class="lead">
-             This web application is just a Demo project.
+             Available for Warfarin 3 mg , 5 mg
             </p>
             <p class="text-black-50">
-              I hope my project will be useful for your pharmacist work.
+              TWD Design 3-70 mg/week
             </p>
           </div>
         </div>
@@ -320,14 +327,9 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-      <p>I poured my heart, soul, and probably too much coffee into building this tiny project —</p>
-      <p>and I truly hope it helps make your work life just a bit (or a byte) easier.</p>
-      <br>
-      <p>If you have any feedback, ideas, or just want to say “hi,” feel free to drop a message in the Comment form. It’ll help me improve and make this site even better — or at least 10% less buggy.</p>
-      <p>And hey, if you think I deserve a coffee (or three), you can scan the QR code below. I promise to use the caffeine wisely. ☕😄</p>
-      <br>
+      <p>สามารถบริจาคค่ากาแฟได้ เพื่อเป็นกำลังใจในการพัฒนาโปรเจคต่อไป (: </p>
+      <p>สามารถสแกน QR Code ด้านล่างได้เลยครับ</p>
       <img src="https://raw.githubusercontent.com/Napatchouli/Demo/main/DonateMe.jpg" alt="QR Code" style="max-width: 100%; margin: auto; display: block;" />
-      <p>Thank you for your support! Your encouragement means the world to me.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -346,13 +348,19 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-          <p>ยินดีต้อนรับสู่โปรเจคเล็กของผม</p>
-          <p>ผมชื่อ ภัทร เป็นเภสัชกรโรงพยาบาลรัฐแห่งหนึ่งในลพบุรี ผมชอบหาอะไรทำไปเรื่อยเปื่อยเพื่อแก้เซ็งจากงานที่ตัวเองทำอยู่ แน่นอนว่าหนึ่งในนั้นคือการเขียนโคัดโปรเจคนี้ขึ้นมา 555 จริงๆมีอีกหลายโปรเจคที่ผมทำไว้ใช้กันเองในโรงพยาบาลแต่ก็มีหลายๆอย่างที่ทำให้ยังเอามาเปิดให้ใช้สาธารณะไม่ได้ แต่ผมก็จะพยายามเอาออกมาเผยแพร่นะครับ เผื่อว่ามันอาจจะเป็นประโยชน์กับทุกๆคน </p>
-          <p>สุดท้ายนี้ ผมหวังว่า โปรเจคเล็กที่ผมทำนี้จะเป็นประโยชน์และเป็นแรงบันดาลใจให้กับใครหลายๆคนนะครับ 😄</p>
+          <p>สวัสดีทุกคุณที่เข้ามาลองใช้งาน</p>
+          <p>ผมชื่อ ณภัทร สัมพัทธ์พงศ์ (ภัทร) ผมเป็นเภสัชกรโรงพยาบาลชุมชนแห่งหนึ่งในภาคกลาง (ตอนนี้ทำมา 2.5 ปีแล้ว) ผมเป็นคนที่เบื่อกับงานประจำมากๆ เลยหาอะไรทำไปเรื่อยเปื่อย ทั้งรับจ้างทำงานวิจัย,เป็นตัวแทนประกัน,วาดรูปขาย รวมทั้งทำขนมขาย 55555</p>
+          <p>สิ่งที่ทำให้ผมสนใจในเรื่องการเขียนโค้ดโปรแกรม คือ ผมชอบเรียนรู้เกี่ยวกับเทคโนโลยีต่างๆ บวกกับเคยทำโปรเจควิทยานิพนธ์ตอนเรียนจบเป็นโปรแกรมช่วยสอนการคำนวณ Vancomycin TDM WebApp มาก่อนเลยพอมีพื้นฐานแล้วก็ศึกษาเรื่อยๆมา (ให้น้องชายตัวเองช่วยสอนด้วย55) ในช่วงที่ทำงานโรงพยาบาลอยู่ ผมก็รู้สึกว่ามันคงจะดีไม่น้อย หากเรามีแอปหรือเครื่องมืออะไรก็ได้ที่ทำให้เราสามารถทำงานได้ไวขึ้น มีประสิทธิภาพมากขึ้น และเกิดข้อผิดพลาดได้น้อยลง เลยเกิดเป็นโปรเจคนี้ขึ้นมาครับ ตอนนี้อาจจะยังไม่สมบูรณ์ที่สุด แต่ผมก็หวังว่าอย่างน้อยมันจะนำไปใช้หน้างานแก้ขัดไปก่อนได้</p>
+          <p>ในอนาคต ผมคิดว่า WebApp นี้ที่ผมทำขึ้นมันจะพัฒนาไปได้มากกว่านี้ ผมจะค่อยๆทำ ปรับปรุงไปเรื่อยๆนะครับ 555</p>
           <br>
-          <p>You can Follow Me by :</p>
-          <i class="bi bi-facebook" style="font-size: 2rem;" href="https://www.facebook.com/napat.sampatpong" target="_blank"> <a href="https://www.facebook.com/napat.sampatpong" target="_blank">Napat Sampatpong</a></i><br>
-          <i class="bi bi-instagram" style="font-size: 2rem;" href="https://www.instagram.com/Napatchouli" target="_blank"> <a href="https://www.facebook.com/napat.sampatpong" target="_blank">Napatchouli</a></i><br>
+          <p>นี่เป็นข่องทางติดต่อของผมที่ไว้คอยอัพเดทต่างๆ</p>
+          <p>เรามาเป็นเพื่อนกันเถอะ !!</p>
+          <!-- Social Media Icons by NiftyButtons https://niftybuttons.com --><div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: left;"><a href="mailto:n.sampatpong@gmail.com" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#ffffff;border-radius:50%;background-color:#0d2744;"><svg class="niftybutton-email" style="display:block;fill:currentColor" data-donate="true" data-tag="ema" data-name="Email" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Email icon</title>
+    <path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"></path>
+  </svg></a>n.sampatpong@gmail.com</div>
+          <!-- Social Media Icons by NiftyButtons https://niftybuttons.com --><div style="display: flex; flex-wrap:wrap; align-items: center; justify-content: left;"><a href="https://www.facebook.com/napat.sampatpong" target="_blank" rel="noopener noreferrer" style="text-decoration:none;border:0;width:36px;height:36px;padding:2px;margin:5px;color:#ffffff;border-radius:50%;background-color:#0d2744;"><svg class="niftybutton-facebook" style="display:block;fill:currentColor" data-donate="true" data-tag="fac" data-name="Facebook" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet"><title>Facebook social icon</title>
+    <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"></path>
+  </svg></a>Napat Sampatpong</div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
