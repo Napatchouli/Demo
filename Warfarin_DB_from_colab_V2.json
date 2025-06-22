@@ -430,7 +430,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q ส,อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "0.5x1 hs q จ-ศ"
   },
   {
     "TWD": 19.0,
@@ -440,7 +440,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q ศ-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "0.5x1 hs q จ-พฤ"
   },
   {
     "TWD": 19.5,
@@ -468,7 +468,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q จ-ส ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "0.5x1 hs q อา"
   },
   {
     "TWD": 21.0,
@@ -497,7 +497,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1.5x1 hs q ส-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "0.5x1 hs q จ-ศ"
   },
   {
     "TWD": 22.0,
@@ -536,7 +536,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q จ-ส ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": " 1x1 hs q อา"
   },
   {
     "TWD": 23.5,
@@ -546,7 +546,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1.5x1 hs q ศ-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "0.5x1 hs q จ-พฤ"
   },
   {
     "TWD": 24.0,
@@ -565,7 +565,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "0.5x1 hs q ศ-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q จ-พฤ"
   },
   {
     "TWD": 25.0,
@@ -603,7 +603,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "0.5x1 hs q ส ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": " 1x1 hs q จ-ศ"
   },
   {
     "TWD": 27.0,
@@ -649,7 +649,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q จ-พ ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q พฤ-อา"
   },
   {
     "TWD": 29.5,
@@ -659,7 +659,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1.5x1 hs q ส ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q จ-ศ"
   },
   {
     "TWD": 30.0,
@@ -688,7 +688,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1x1 hs q ส-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q จ-ศ"
   },
   {
     "TWD": 31.5,
@@ -735,7 +735,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1.5x1 hs q จ-พ ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q พฤ-อา"
   },
   {
     "TWD": 34.0,
@@ -745,7 +745,7 @@
     ],
     "Warfarin_2_mg": "",
     "Warfarin_3_mg": "1.5x1 hs q ส-อา ",
-    "Warfarin_5_mg": ""
+    "Warfarin_5_mg": "1x1 hs q จ-ศ"
   },
   {
     "TWD": 34.5,
