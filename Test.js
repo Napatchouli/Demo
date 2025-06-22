@@ -261,7 +261,10 @@ function calTWD() {
     const TWDValue = parseFloat(document.getElementById("TWD_Value").value);
     const checkedValues = getCheckboxValue(); // [2, 3, 5] as selected
     const resultDiv = document.getElementById("TWDResult");
-
+    const totalWarfarin = parseFloat(document.getElementById("totalWarfarin").value);
+    const PercentChange = ((TWDValue / totalWarfarin * 100)-100).toFixed(1); // Calculate percent change
+    const changeDirection = PercentChange > 0 ? '+' : '';
+    let percentChangeText = `(${changeDirection}${PercentChange} % จาก ${totalWarfarin} mg/wk)`;
     // If no checkbox is checked, show error and return
     if (checkedValues.length === 0) {
         resultDiv.innerHTML = `
@@ -270,13 +273,17 @@ function calTWD() {
         </div>`;
         return;
     }
+    //if totalWarfarin is Empty , hide percentChangeText
+    if (isNaN(totalWarfarin) || totalWarfarin === '') {
+        percentChangeText = '';
+    }
 
     // Use the new logic
     const results = findSuitableRegimens(checkedValues, TWDValue, warfarinData);
 
     if (results.length > 0) {
         let html = `<div class="alert alert-info">
-            <strong>Results for TWD ${TWDValue} mg/day:</strong><br>`;
+            <strong>Results for TWD ${TWDValue} mg/day ${percentChangeText}:</strong><br>`;
         results.forEach((result, idx) => {
             html += `<div style="margin-bottom:8px;">
                 <strong>Regimen ${idx + 1}:</strong><br>`;
