@@ -1,0 +1,1101 @@
+[
+  {
+    "TWD": 3.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ และ ศ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 5.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q จ และ ศ"
+  },
+  {
+    "TWD": 5.25,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.25x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 5.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.25x1 hs q จ-พฤ",
+    "Warfarin_5_mg": "0.25x1 hs q ศ-ส"
+  },
+  {
+    "TWD": 6.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q จ-พ-ศ-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 6.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": " 1x1 hs q จ-พ-ศ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 6.5,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q จ-ศ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "0.5x1 hs q ส"
+  },
+  {
+    "TWD": 7.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q ทุกวัน",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 7.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-พ-ศ ",
+    "Warfarin_5_mg": "0.5x1 hs q อา"
+  },
+  {
+    "TWD": 7.5,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q จ-ส",
+    "Warfarin_3_mg": "0.5x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 8.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-พ-ศ-อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 8.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ, พ",
+    "Warfarin_5_mg": "0.5x1 hs q ศ,อา"
+  },
+  {
+    "TWD": 8.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-พฤ ",
+    "Warfarin_5_mg": "0.5x1 hs q ศ"
+  },
+  {
+    "TWD": 8.5,
+    "AvailableStrengths": [
+      2,
+      3
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q จ-ส",
+    "Warfarin_3_mg": "0.5x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 8.75,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.25x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 9.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs ทุกวัน เว้น อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 9.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q จ-ศ และ  1x1 hs q ส-อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 9.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q จ - พ ",
+    "Warfarin_5_mg": "0.5x1 hs q พฤ, ศ"
+  },
+  {
+    "TWD": 10.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q จ, พ, ศ, อา"
+  },
+  {
+    "TWD": 10.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-ศ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 10.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 11.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-พฤ และ 0.5x1 hs q ศ-อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 11.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-พฤ",
+    "Warfarin_5_mg": "0.5x1 hs q ศ, ส"
+  },
+  {
+    "TWD": 11.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-ส",
+    "Warfarin_5_mg": "0.5x1 hs q อา"
+  },
+  {
+    "TWD": 12.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "2 mg 1x1 hs q จ-ส",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 12.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-ส และ 1x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 12.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-ศ",
+    "Warfarin_5_mg": "0.5x1 hs q ส-อา"
+  },
+  {
+    "TWD": 12.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 13.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-ส และ 0.5x1 hs q อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 13.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ, อ",
+    "Warfarin_5_mg": "0.5x1 hs q พ-ส"
+  },
+  {
+    "TWD": 13.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-ศ และ 1x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 14.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q ทุกวัน",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 14.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q จ",
+    "Warfarin_5_mg": "0.5x1 hs q อ-ส"
+  },
+  {
+    "TWD": 14.5,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-ส",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "0.5x1 hs q อา"
+  },
+  {
+    "TWD": 14.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q จ-พ ",
+    "Warfarin_5_mg": "0.5x1 hs q พฤ-อา"
+  },
+  {
+    "TWD": 15.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-ส และ 1.5x1 hs q อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 15.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-พฤ และ 0.5x1 hs q ศ-ส",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 15.0,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "1x1 hs q จ-ศ ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "0.5x1 hs q ส-อา"
+  },
+  {
+    "TWD": 15.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q ทุกวัน เว้น อา"
+  },
+  {
+    "TWD": 15.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q ส-อา ",
+    "Warfarin_5_mg": "0.5x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 15.75,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.75x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 16.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q จ-พ และ 1x1 hs q พฤ-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 17.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q ส และ 1x1 hs q อา",
+    "Warfarin_5_mg": "0.5x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 17.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 18.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ทุกวัน เว้น อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 18.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q ส,อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 19.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q ศ-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 19.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-ส และ 0.5x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 20.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q จ-ส และ 1x1 hs q อา"
+  },
+  {
+    "TWD": 20.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q จ-ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 21.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 21.5,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "0.5x1 hs q จ-พฤ ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "0.5x1 hs ทุกวัน"
+  },
+  {
+    "TWD": 21.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1.5x1 hs q ส-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 22.0,
+    "AvailableStrengths": [
+      2,
+      3
+    ],
+    "Warfarin_2_mg": "2x1 hs q อา",
+    "Warfarin_3_mg": "1x1 hs q จ-ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 22.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "2x1 hs q ศ-ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 22.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 0.5x1 hs q จ-ศ และ 1x1 hs q ส-อา"
+  },
+  {
+    "TWD": 23.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q จ-ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 23.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1.5x1 hs q ศ-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 24.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-ส และ 2x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 24.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q ศ-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 25.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 25.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-พฤ และ 1.5x1 hs q ศ-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 26.0,
+    "AvailableStrengths": [
+      2,
+      3
+    ],
+    "Warfarin_2_mg": "2x1 hs q จ-ศ ",
+    "Warfarin_3_mg": "1x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 26.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "0.5x1 hs q ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 27.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-ศ และ 2x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 27.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q จ-ศ และ 0.5x1 hs q ส"
+  },
+  {
+    "TWD": 28.0,
+    "AvailableStrengths": [
+      2
+    ],
+    "Warfarin_2_mg": "2x1 hs q ทุกวัน",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 28.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q จ-ศ และ 1x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 29.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q จ-พ ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 29.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1.5x1 hs q ส ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 30.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน เว้น อา"
+  },
+  {
+    "TWD": 30.5,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "2x1 hs q ทุุกวัน ",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "0.5x1 hs q อา"
+  },
+  {
+    "TWD": 31.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q ส-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 31.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 32.0,
+    "AvailableStrengths": [
+      2,
+      5
+    ],
+    "Warfarin_2_mg": "1x1 hs q อา",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": "1x1 hs q จ-ส "
+  },
+  {
+    "TWD": 32.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q จ-ส และ 0.5x1 hs q อา"
+  },
+  {
+    "TWD": 33.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q จ-ส และ 2x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 33.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1.5x1 hs q จ-พ ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 34.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1.5x1 hs q ส-อา ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 34.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q จ-ศ และ 2x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 35.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 35.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "1x1 hs q จ-ส",
+    "Warfarin_5_mg": "0.5x1 hs q ทุกวัน "
+  },
+  {
+    "TWD": 36.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q อา ",
+    "Warfarin_5_mg": " 1x1 hs q จ-ส"
+  },
+  {
+    "TWD": 36.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q อา ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 37.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q ส-อา ",
+    "Warfarin_5_mg": " 1x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 37.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1x1 hs q จ-ส และ 1.5x1 hs q อา"
+  },
+  {
+    "TWD": 38.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q ศ-อา ",
+    "Warfarin_5_mg": " 1x1 hs q จ-พฤ"
+  },
+  {
+    "TWD": 38.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ทุกวัน ",
+    "Warfarin_5_mg": " 0.5x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 39.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q จ-ส และ 1x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 39.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q จ-พ-ศ ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 40.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q จ-ศ ",
+    "Warfarin_5_mg": " 1x1 hs q ส-อา"
+  },
+  {
+    "TWD": 40.5,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q จ-ส และ 1.5x1 hs q อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 41.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q จ-ส ",
+    "Warfarin_5_mg": " 1x1 hs q อา"
+  },
+  {
+    "TWD": 42.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 2x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 42.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1.5x1 hs q จ-ศ และ 1x1 hs q ส"
+  },
+  {
+    "TWD": 43.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ส-อา ",
+    "Warfarin_5_mg": " 1.5x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 44.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ศ-อา ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 45.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 3x1 hs q จ-ศ ",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 45.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 0.5x1 hs q ทุกวัน ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 46.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q ส-อา ",
+    "Warfarin_5_mg": " 1.5x1 hs q จ-ศ"
+  },
+  {
+    "TWD": 47.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q พฤ-อา ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 47.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1.5x1 hs q จ-ศ และ 1x1 hs q ส-อา"
+  },
+  {
+    "TWD": 50.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q จ-ศ ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 51.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x hs q ทุกวัน ",
+    "Warfarin_5_mg": " 1x1 hs q จ-ส"
+  },
+  {
+    "TWD": 52.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 1.5x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 54.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 3x1 hs q จ-ส",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 55.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q จ-พฤ และ 1x1 hs q ศ-อา"
+  },
+  {
+    "TWD": 56.0,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1x1 hs q ทุกวัน ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 57.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 3x1 hs q จ-ศ และ 2x1 hs q ส-อา",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 60.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q จ-ศ และ 1x1 hs q ส-อา"
+  },
+  {
+    "TWD": 62.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q จ-พฤ และ 1.5x1 hs q ศ-อา"
+  },
+  {
+    "TWD": 63.0,
+    "AvailableStrengths": [
+      3
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 3x1 hs q ทุกวัน",
+    "Warfarin_5_mg": ""
+  },
+  {
+    "TWD": 65.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q จ-ศ และ 1.5x1 hs q ส-อา"
+  },
+  {
+    "TWD": 66.5,
+    "AvailableStrengths": [
+      3,
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": " 1.5x1 hs q ทุกวัน ",
+    "Warfarin_5_mg": " 1x1 hs q ทุกวัน"
+  },
+  {
+    "TWD": 67.5,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q จ-ส และ 1.5x1 hs q อา"
+  },
+  {
+    "TWD": 70.0,
+    "AvailableStrengths": [
+      5
+    ],
+    "Warfarin_2_mg": "",
+    "Warfarin_3_mg": "",
+    "Warfarin_5_mg": " 2x1 hs q ทุกวัน"
+  }
+]
